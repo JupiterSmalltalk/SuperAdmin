@@ -1,0 +1,14 @@
+{
+	"category" : "BaselineOfSuperAdmin",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "BaselineOfSuperAdmin",
+	"pools" : [
+		 ],
+	"super" : "BaselineOf",
+	"type" : "normal" }

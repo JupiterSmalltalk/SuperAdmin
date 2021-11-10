@@ -1,0 +1,145 @@
+// Bootstrap functions
+@import "../bootstrap-5.0.0/scss/functions";
+
+// Font
+@import "inc/fonts";
+
+// Variables & Overrides
+@import "inc/variables";
+
+// Bootstrap
+@import "../bootstrap-5.0.0/scss/variables";
+@import "../bootstrap-5.0.0/scss/mixins";
+@import "../bootstrap-5.0.0/scss/utilities";
+
+// Mixins
+@import "inc/mixins";
+
+// Layout & components
+@import "../bootstrap-5.0.0/scss/root";
+@import "../bootstrap-5.0.0/scss/reboot";
+@import "../bootstrap-5.0.0/scss/type";
+@import "../bootstrap-5.0.0/scss/images";
+@import "../bootstrap-5.0.0/scss/containers";
+@import "../bootstrap-5.0.0/scss/grid";
+@import "../bootstrap-5.0.0/scss/tables";
+@import "../bootstrap-5.0.0/scss/forms";
+@import "../bootstrap-5.0.0/scss/buttons";
+@import "../bootstrap-5.0.0/scss/transitions";
+@import "../bootstrap-5.0.0/scss/dropdown";
+@import "../bootstrap-5.0.0/scss/button-group";
+@import "../bootstrap-5.0.0/scss/nav";
+@import "../bootstrap-5.0.0/scss/navbar";
+@import "../bootstrap-5.0.0/scss/card";
+@import "../bootstrap-5.0.0/scss/accordion";
+@import "../bootstrap-5.0.0/scss/breadcrumb";
+@import "../bootstrap-5.0.0/scss/pagination";
+@import "../bootstrap-5.0.0/scss/badge";
+@import "../bootstrap-5.0.0/scss/alert";
+@import "../bootstrap-5.0.0/scss/progress";
+@import "../bootstrap-5.0.0/scss/list-group";
+@import "../bootstrap-5.0.0/scss/close";
+@import "../bootstrap-5.0.0/scss/toasts";
+@import "../bootstrap-5.0.0/scss/modal";
+@import "../bootstrap-5.0.0/scss/tooltip";
+@import "../bootstrap-5.0.0/scss/popover";
+@import "../bootstrap-5.0.0/scss/carousel";
+@import "../bootstrap-5.0.0/scss/spinners";
+@import "../bootstrap-5.0.0/scss/offcanvas";
+
+// Helpers
+@import "../bootstrap-5.0.0/scss/helpers";
+
+// Utilities
+@import "../bootstrap-5.0.0/scss/utilities/api";
+
+
+// Bootstrap overrides
+@import "inc/bootstrap-overrides/dropdown";
+@import "inc/bootstrap-overrides/media";
+@import "inc/bootstrap-overrides/progress";
+@import "inc/bootstrap-overrides/card";
+@import "inc/bootstrap-overrides/buttons";
+@import "inc/bootstrap-overrides/tables";
+@import "inc/bootstrap-overrides/forms";
+@import "inc/bootstrap-overrides/input-groups";
+@import "inc/bootstrap-overrides/pagination";
+@import "inc/bootstrap-overrides/alerts";
+@import "inc/bootstrap-overrides/close";
+@import "inc/bootstrap-overrides/breadcrumbs";
+@import "inc/bootstrap-overrides/accordion";
+@import "inc/bootstrap-overrides/carousel";
+@import "inc/bootstrap-overrides/modal";
+@import "inc/bootstrap-overrides/popovers";
+@import "inc/bootstrap-overrides/tabs";
+@import "inc/bootstrap-overrides/tooltip";
+@import "inc/bootstrap-overrides/toast";
+
+
+// Core styles
+@import "inc/generics";
+@import "inc/base";
+@import "inc/list";
+@import "inc/layout";
+@import "inc/misc";
+@import "inc/header";
+@import "inc/footer";
+@import "inc/sidebar";
+@import "inc/toggle-switch";
+@import "inc/listview";
+@import "inc/toolbar";
+@import "inc/page-loader";
+@import "inc/profile";
+@import "inc/photos";
+@import "inc/contacts";
+@import "inc/groups";
+@import "inc/custom-forms";
+@import "inc/messages";
+@import "inc/pricing-table";
+@import "inc/invoice";
+@import "inc/login";
+@import "inc/todo";
+@import "inc/notes";
+@import "inc/results";
+@import "inc/issue-tracker";
+@import "inc/team";
+@import "inc/blog";
+@import "inc/questions-answers";
+@import "inc/theme";
+@import "inc/ie-warning";
+@import "inc/error";
+
+
+// Widgets
+@import "inc/widgets/past-days";
+@import "inc/widgets/visitors";
+@import "inc/widgets/pie-charts";
+@import "inc/widgets/quick-stats";
+@import "inc/widgets/photos";
+@import "inc/widgets/profile";
+@import "inc/widgets/contact";
+@import "inc/widgets/signups";
+@import "inc/widgets/time";
+@import "inc/widgets/calendar";
+
+
+// Vendor overrides
+@import "inc/vendor-overrides/flot";
+@import "inc/vendor-overrides/sparklines";
+@import "inc/vendor-overrides/select2";
+@import "inc/vendor-overrides/dropzone";
+@import "inc/vendor-overrides/nouislider";
+@import "inc/vendor-overrides/easy-pie-charts";
+@import "inc/vendor-overrides/data-tables";
+@import "inc/vendor-overrides/flatpickr";
+@import "inc/vendor-overrides/bootstrap-colorpicker";
+@import "inc/vendor-overrides/trumbowyg";
+@import "inc/vendor-overrides/fullcalendar";
+@import "inc/vendor-overrides/sweetalert2";
+@import "inc/vendor-overrides/lightgallery";
+@import "inc/vendor-overrides/Waves";
+@import "inc/vendor-overrides/jqtree";
+@import "inc/vendor-overrides/rateYo";
+@import "inc/vendor-overrides/jquery-text-counter";
+@import "inc/vendor-overrides/overlay-scrollbars";
+@import "inc/vendor-overrides/jqvmap";

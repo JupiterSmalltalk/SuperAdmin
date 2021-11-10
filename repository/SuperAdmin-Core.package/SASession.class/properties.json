@@ -1,0 +1,18 @@
+{
+	"category" : "SuperAdmin-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"announcer",
+		"user",
+		"lockUser",
+		"superUser",
+		"lastAccessTime" ],
+	"name" : "SASession",
+	"pools" : [
+		 ],
+	"super" : "WASession",
+	"type" : "normal" }
