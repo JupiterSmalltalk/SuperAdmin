@@ -2,4 +2,4 @@ rendering
 renderLogoOn: canvas
   canvas div
     class: 'brand';
-    with: [ canvas image url: SAFileLibrary / #'imgbrandfiosfoisWhiteTransparentPng' ]
+    with: [ canvas image url: EOFileLibrary / #'imagesbrandEndlessLogoWhiteTransparentPng' ]
