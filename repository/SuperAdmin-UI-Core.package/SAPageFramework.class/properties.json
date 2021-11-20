@@ -1,0 +1,16 @@
+{
+	"category" : "SuperAdmin-UI-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"themeIndex",
+		"title",
+		"notifications" ],
+	"name" : "SAPageFramework",
+	"pools" : [
+		 ],
+	"super" : "SAAbstractComponent",
+	"type" : "normal" }

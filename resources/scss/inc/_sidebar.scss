@@ -31,6 +31,7 @@
 .sidebar {
   width: $sidebar-width;
   position: fixed;
+  top: $header-height;
   left: 0;
   height: 100%;
   overflow: hidden;
@@ -99,6 +100,10 @@
   &:hover {
     background-color: rgba($white, 0.1);
   }
+  
+	.avatar_char {
+		margin-right: 12px;
+	}
 }
 
 .user__img {
@@ -109,8 +114,10 @@
 }
 
 .user__name {
-  font-weight: $font-weight-bold;
-  margin-top: 0.2rem;
+  //font-weight: $font-weight-bold;
+  font-size: 1.2rem;
+  line-height: 1rem;
+  margin-top: 0.2rem;  
 }
 
 .user__email {

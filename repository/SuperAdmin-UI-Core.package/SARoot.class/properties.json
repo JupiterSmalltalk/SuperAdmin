@@ -1,0 +1,14 @@
+{
+	"category" : "SuperAdmin-UI-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"showLoadingScreen" ],
+	"name" : "SARoot",
+	"pools" : [
+		 ],
+	"super" : "SAPageFramework",
+	"type" : "normal" }

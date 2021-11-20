@@ -46,7 +46,7 @@
 
 // Logo
 .logo {
-  padding-left: 2.2rem;
+  padding-left: 1.8rem;
   height: $header-height;
   display: flex;
   align-items: center;
@@ -79,6 +79,7 @@
   & > li {
     display: inline-block;
     vertical-align: middle;
+    margin: 0 2px 0 2px;
 
     & > a {
       display: block;
@@ -115,8 +116,8 @@
 
       .dropdown-menu--block {
         left: 0;
-        top: $header-height !important;
-        transform: none !important;
+        top: 1rem !important;
+        //transform: none !important;
       }
     }
   }
@@ -389,12 +390,14 @@
 
 // Clock
 .clock {
-  background: rgba($white, 0.1);
-  line-height: 100%;
-  padding: 0.7rem 1rem;
-  font-size: 1.5rem;
-  margin-left: 1rem;
-  border-radius: $border-radius;
+	background: rgba($white, 0.1);
+	line-height: 100%;
+	padding: 0.7rem 1rem;
+	font-size: 1.5rem;
+	margin-left: 1rem;
+	border-radius: $border-radius;
+	width: 110px;
+	text-align: center;
 }
 
 .time {

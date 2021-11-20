@@ -8,6 +8,4 @@ loadFromDist
         includes: (self categoryOfSelector: selector) ])
     do: [ :selector | self removeSelector: selector ].
   self removeEmptyCategories.
-  self
-    recursivelyAddAllFilesIn:
-      '/opt/git/fios-systems/SuperAdmin/www_root/files/SAFileLibrary'
+  self recursivelyAddAllFilesIn: self distDirectory

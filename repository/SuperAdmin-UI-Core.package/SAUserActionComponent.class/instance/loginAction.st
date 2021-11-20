@@ -9,8 +9,11 @@ loginAction
           (self errorsForSection: 'login')
             add: [ :html | 
               html
-                paragraph: 'There was an error while processing your request.';
-                paragraph: 'Review your entries and please try again.' ].
+                paragraph: [ 
+                  html
+                    strong: 'I was unable to sign you in with those details.';
+                    break;
+                    text: 'Review your entries and please try again.' ] ].
           (Delay forSeconds: 5) wait ]
         ifNotNil: [ :loggedInUser | 
           self

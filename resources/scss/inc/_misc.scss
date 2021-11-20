@@ -54,6 +54,10 @@
 .actions {
   display: flex;
   align-items: center;
+  
+  a {
+  	text-decoration: none;
+  }
 }
 
 .actions__item {

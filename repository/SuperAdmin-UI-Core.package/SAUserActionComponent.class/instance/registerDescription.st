@@ -2,5 +2,5 @@ descriptions
 registerDescription
   ^ SAContainer
     withAll:
-      self nicknameDescription , self userNameDescription
+      self titleDescription , self userNameDescription
         , self verifiedPasswordDescription

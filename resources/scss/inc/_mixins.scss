@@ -56,3 +56,35 @@
   height: $height;
 }
 
+// Multi-line truncate
+/* mixin for multiline */
+@mixin multiLineEllipsis($lineCount: 1){
+    // multi-line truncation
+	display: -webkit-box;
+	-webkit-line-clamp: $lineCount;
+	-webkit-box-orient: vertical;
+	word-break: none;
+	overflow: hidden;
+	position: relative; 
+	background: inherit;
+	white-space: normal;
+	
+	&::after {
+		content: '';
+		width: 0;
+		height: 2ch;
+		position: absolute;
+		bottom: 0;
+		right: 0;
+		pointer-events: none;
+		background: inherit; 
+		mask-image: linear-gradient(to left, black, transparent);
+		transition: .2s;
+	}
+	
+	&.clamped{
+		&::after{
+			width: 4em;
+		}
+	}
+}

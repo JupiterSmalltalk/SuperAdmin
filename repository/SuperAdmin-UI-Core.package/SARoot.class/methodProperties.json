@@ -1,0 +1,14 @@
+{
+	"class" : {
+		"canBeRoot" : "jupiter 11/12/2021 18:11",
+		"configureApplication:" : "jupiter 11/12/2021 18:11",
+		"register" : "jupiter 11/12/2021 17:52",
+		"unregister" : "jupiter 11/12/2021 17:52" },
+	"instance" : {
+		"initialRequest:" : "jupiter 11/12/2021 17:49",
+		"initialize" : "jupiter 11/12/2021 16:51",
+		"initializeNotifications" : "jupiter 11/12/2021 16:51",
+		"renderContentOn:" : "jupiter 11/12/2021 17:51",
+		"renderPageLoaderOn:" : "jupiter 11/12/2021 17:50",
+		"renderPageLoaderSpinnerOn:" : "jupiter 11/12/2021 17:50",
+		"userWithName:password:" : "jupiter 11/12/2021 16:51" } }

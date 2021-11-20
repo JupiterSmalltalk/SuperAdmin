@@ -1,3 +1,3 @@
 Accessing
 user
-	^user
+  ^ self session user

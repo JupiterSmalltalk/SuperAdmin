@@ -1,5 +1,7 @@
+@use "sass:math";
+
 // Bootstrap functions
-@import "../bootstrap-5.0.0/scss/functions";
+@import "../bs5/functions";
 
 // Font
 @import "inc/fonts";
@@ -8,51 +10,50 @@
 @import "inc/variables";
 
 // Bootstrap
-@import "../bootstrap-5.0.0/scss/variables";
-@import "../bootstrap-5.0.0/scss/mixins";
-@import "../bootstrap-5.0.0/scss/utilities";
+@import "../bs5/variables";
+@import "../bs5/mixins";
+@import "../bs5/utilities";
 
 // Mixins
 @import "inc/mixins";
 
 // Layout & components
-@import "../bootstrap-5.0.0/scss/root";
-@import "../bootstrap-5.0.0/scss/reboot";
-@import "../bootstrap-5.0.0/scss/type";
-@import "../bootstrap-5.0.0/scss/images";
-@import "../bootstrap-5.0.0/scss/containers";
-@import "../bootstrap-5.0.0/scss/grid";
-@import "../bootstrap-5.0.0/scss/tables";
-@import "../bootstrap-5.0.0/scss/forms";
-@import "../bootstrap-5.0.0/scss/buttons";
-@import "../bootstrap-5.0.0/scss/transitions";
-@import "../bootstrap-5.0.0/scss/dropdown";
-@import "../bootstrap-5.0.0/scss/button-group";
-@import "../bootstrap-5.0.0/scss/nav";
-@import "../bootstrap-5.0.0/scss/navbar";
-@import "../bootstrap-5.0.0/scss/card";
-@import "../bootstrap-5.0.0/scss/accordion";
-@import "../bootstrap-5.0.0/scss/breadcrumb";
-@import "../bootstrap-5.0.0/scss/pagination";
-@import "../bootstrap-5.0.0/scss/badge";
-@import "../bootstrap-5.0.0/scss/alert";
-@import "../bootstrap-5.0.0/scss/progress";
-@import "../bootstrap-5.0.0/scss/list-group";
-@import "../bootstrap-5.0.0/scss/close";
-@import "../bootstrap-5.0.0/scss/toasts";
-@import "../bootstrap-5.0.0/scss/modal";
-@import "../bootstrap-5.0.0/scss/tooltip";
-@import "../bootstrap-5.0.0/scss/popover";
-@import "../bootstrap-5.0.0/scss/carousel";
-@import "../bootstrap-5.0.0/scss/spinners";
-@import "../bootstrap-5.0.0/scss/offcanvas";
+@import "../bs5/root";
+@import "../bs5/reboot";
+@import "../bs5/type";
+@import "../bs5/images";
+@import "../bs5/containers";
+@import "../bs5/grid";
+@import "../bs5/tables";
+@import "../bs5/forms";
+@import "../bs5/buttons";
+@import "../bs5/transitions";
+@import "../bs5/dropdown";
+@import "../bs5/button-group";
+@import "../bs5/nav";
+@import "../bs5/navbar";
+@import "../bs5/card";
+@import "../bs5/accordion";
+@import "../bs5/breadcrumb";
+@import "../bs5/pagination";
+@import "../bs5/badge";
+@import "../bs5/alert";
+@import "../bs5/progress";
+@import "../bs5/list-group";
+@import "../bs5/close";
+@import "../bs5/toasts";
+//@import "../bs5/modal";
+@import "../bs5/tooltip";
+@import "../bs5/popover";
+@import "../bs5/carousel";
+@import "../bs5/spinners";
+//@import "../bs5/offcanvas";
 
 // Helpers
-@import "../bootstrap-5.0.0/scss/helpers";
+@import "../bs5/helpers";
 
 // Utilities
-@import "../bootstrap-5.0.0/scss/utilities/api";
-
+@import "../bs5/utilities/api";
 
 // Bootstrap overrides
 @import "inc/bootstrap-overrides/dropdown";
@@ -77,6 +78,7 @@
 
 
 // Core styles
+@import "inc/variables"; 
 @import "inc/generics";
 @import "inc/base";
 @import "inc/list";

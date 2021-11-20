@@ -21,6 +21,6 @@ renderContentOn: html
                 class: 'g-recaptcha mb-3';
                 attributeAt: 'data-sitekey'
                   put: (self application preferenceAt: #'reCaptchaSiteKey');
-                attributeAt: 'data-size' put: 'normal'.
-              html script: self reCaptchaScript ].
-          self renderButtonsOn: html ]
+                attributeAt: 'data-size' put: 'normal' ].
+          self renderButtonsOn: html.
+          html script: self onSubmitScript ]

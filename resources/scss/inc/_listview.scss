@@ -28,6 +28,7 @@
 	font-size: 3.5rem;
 	margin-left: -1rem;
 	margin-right: 1rem;
+	color: $text-muted;
   }
 }
 
@@ -69,8 +70,40 @@
   }
 
   & + p {
-    margin: 0.35rem 0 0;
+	height: 2.1rem;
+	line-height: 1rem;
+    margin: 0 0 0 0;
     color: $text-muted;
+    
+    // 2 line truncation
+	display: -webkit-box;
+	-webkit-line-clamp: var(--line-clamp, 2);
+	-webkit-box-orient: vertical;
+	word-break: var(--word-break, 'none');
+	overflow: hidden;
+	position: relative; 
+	background: inherit;
+	white-space: normal;
+	
+	&::after {
+		content: '';
+		width: 0;
+		height: 2ch;
+		position: absolute;
+		bottom: 0;
+		right: 0;
+		pointer-events: none;
+		//background: linear-gradient(90deg, transparent, var(--bg));
+		background: inherit; // it's easier to work with inheritance 
+		mask-image: linear-gradient(to left, black, transparent);
+		transition: .2s;
+	}
+	
+	&.clamped{
+		&::after{
+			width: 4em;
+		}
+	}
   }
 }
 

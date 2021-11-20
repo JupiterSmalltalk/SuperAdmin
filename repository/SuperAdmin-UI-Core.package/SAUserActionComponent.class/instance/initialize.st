@@ -1,7 +1,9 @@
 initialisation
 initialize
   super initialize.
-  action := 'login'.
+  self
+    subscribe: SALock do: [ :ann | self beLock ] for: self;
+    subscribe: SALogout do: [ :ann | self beLogin ] for: self.
   (self errorsForSection: 'forgotPassword')
     add: [ :html | 
       html
