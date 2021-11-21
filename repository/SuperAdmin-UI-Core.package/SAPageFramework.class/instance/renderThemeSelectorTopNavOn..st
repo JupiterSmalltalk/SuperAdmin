@@ -10,5 +10,4 @@ renderThemeSelectorTopNavOn: canvas
             with: [ 
                   canvas fontAwesome
                     fontAwesomeLight;
-                    class: 'navbar-icon';
                     icon: 'palette' ] ]

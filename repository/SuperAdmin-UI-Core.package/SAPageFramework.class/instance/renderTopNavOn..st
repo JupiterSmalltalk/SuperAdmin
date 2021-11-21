@@ -3,7 +3,9 @@ renderTopNavOn: canvas
   canvas unorderedList
     class: 'top-nav';
     with: [ 
-          self renderSearchEnableTopNavOn: canvas.
-          self renderNotificationsTopNavOn: canvas.
-          self renderThemeSelectorTopNavOn: canvas ].
+          self
+            renderSearchEnableTopNavOn: canvas;
+            renderNotificationsTopNavOn: canvas;
+            renderAppLauncherTopNavOn: canvas;
+            renderThemeSelectorTopNavOn: canvas ].
   self renderClockOn: canvas

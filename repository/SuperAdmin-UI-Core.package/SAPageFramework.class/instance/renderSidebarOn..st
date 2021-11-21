@@ -5,4 +5,7 @@ renderSidebarOn: canvas
     with: [ 
           canvas div
             class: 'scrollbar';
-            with: [ self renderSidebarUserOn: canvas ] ]
+            with: [ 
+                  self
+                    renderSidebarUserOn: canvas;
+                    renderSidebarNavigationOn: canvas ] ]

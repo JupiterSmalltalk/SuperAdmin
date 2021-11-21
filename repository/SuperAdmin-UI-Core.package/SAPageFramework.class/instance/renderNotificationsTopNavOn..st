@@ -11,7 +11,6 @@ renderNotificationsTopNavOn: canvas
             with: [ 
                   canvas fontAwesome
                     fontAwesomeLight;
-                    class: 'navbar-icon';
                     icon: 'bell' ].
           canvas dropdownMenu
             class: 'dropdown-menu-end dropdown-menu--block';
