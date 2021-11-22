@@ -1,3 +1,0 @@
-accessing
-organisationModel
-  ^ NWCurrentOrganisationModel value

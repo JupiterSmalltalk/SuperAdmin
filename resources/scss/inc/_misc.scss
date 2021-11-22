@@ -61,7 +61,7 @@
 }
 
 .actions__item {
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   cursor: pointer;
   color: $body-color;
   transition: background-color 300ms, color 300ms;
@@ -80,6 +80,13 @@
 
 .actions__item--active {
   background-color: $bg-highlighted-light;
+}
+
+header {
+	.actions {
+		position: relative;
+		top: -1rem;
+	}
 }
 
 
@@ -168,11 +175,18 @@
 .widget-lists {
   column-gap: $grid-gutter-width;
 
-  @media(min-width: 1500px) {
-    column-count: 3;
-  }
+  //@media(min-width: 1500px) {
+  //  column-count: 3;
+  //}
+  
+  .card {
+  	-webkit-column-break-inside: avoid;
+          page-break-inside: avoid;
+               break-inside: avoid;
+	}
 
-  @media (min-width: 900px) and (max-width: 1499px) {
+  //@media (min-width: 900px) and (max-width: 1499px) {
+  @media (min-width: 900px) {
     column-count: 2;
   }
 

@@ -1,11 +1,13 @@
 {
 	"class" : {
-		 },
+		"parent:" : "jupiter 11/21/2021 14:43" },
 	"instance" : {
 		"announce:" : "jupiter 05/04/2021 11:51",
 		"children" : "jupiter 04/28/2021 08:20",
 		"componentAt:ifAbsentPut:" : "jupiter 04/26/2021 20:25",
 		"components" : "jupiter 04/28/2021 08:18",
+		"parent" : "jupiter 11/21/2021 14:42",
+		"parent:" : "jupiter 11/21/2021 14:42",
 		"removeComponentAt:" : "jupiter 05/12/2021 11:15",
 		"rendererClass" : "jupiter 11/12/2021 21:03",
 		"subscribe:do:for:" : "jupiter 05/04/2021 11:52" } }

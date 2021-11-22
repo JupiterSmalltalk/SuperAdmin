@@ -1,8 +1,10 @@
 rendering
 renderMainOn: canvas
   canvas main
-    class: 'main container';
+    class: 'main';
     with: [ 
-          self renderHeaderOn: canvas.
-          self renderThemeSelectorOn: canvas.
-          self renderSidebarOn: canvas ]
+          self
+            renderHeaderOn: canvas;
+            renderThemeSelectorOn: canvas;
+            renderSidebarOn: canvas;
+            renderPanelOn: canvas ]

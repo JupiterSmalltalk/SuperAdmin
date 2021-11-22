@@ -5,7 +5,7 @@
 .dropdown-menu {
   @include animate(fadeIn, 300ms);
   box-shadow: $dropdown-box-shadow;
-  background-color: rgba(0,0,0,0.7);
+  background-color: rgba(0,0,0,0.86);
 }
 
 .dropdown-header {

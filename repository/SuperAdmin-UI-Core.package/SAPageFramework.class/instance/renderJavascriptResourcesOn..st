@@ -9,8 +9,7 @@ renderJavascriptResourcesOn: canvas
   canvas script url: SAFileLibrary / #'vendorsflotflotcurvedlinescurvedLinesJs'.
   canvas script url: SAFileLibrary / #'vendorspeityjquerypeityminJs'.
   canvas script url: SAFileLibrary / #'vendorsjqvmapjqueryvmapminJs'.
-  canvas script
-    url: SAFileLibrary / #'vendorsjqvmapmapscontinentsjqueryvmapaustraliaJs'.
+  canvas script url: SAFileLibrary / #'vendorsjqvmapmapsjqueryvmapworldJs'.
   canvas script
     url: SAFileLibrary / #'vendorsjqueryeasypiechartjqueryeasypiechartminJs'.
   canvas script url: SAFileLibrary / #'vendorsfullcalendarcoremainminJs'.

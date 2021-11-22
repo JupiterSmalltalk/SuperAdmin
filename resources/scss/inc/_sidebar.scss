@@ -195,6 +195,15 @@
     & > li {
       & > a {
         padding: .6rem 1rem .6rem 3.6rem;
+        
+        > i {
+        	width: 2rem;
+        	font-size: 1.3rem;
+			margin-right: 0.5rem;
+			position: relative;
+			top: 0.15rem;
+			text-align: center;
+        }
       }
 
       &:last-child {

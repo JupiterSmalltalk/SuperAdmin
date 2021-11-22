@@ -1,0 +1,14 @@
+{
+	"category" : "SuperAdmin-UI-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "SAAPanelGroupComponent",
+	"pools" : [
+		 ],
+	"super" : "SAAbstractPanelComponent",
+	"type" : "normal" }

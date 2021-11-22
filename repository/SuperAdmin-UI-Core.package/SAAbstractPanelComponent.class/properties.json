@@ -1,0 +1,20 @@
+{
+	"category" : "SuperAdmin-UI-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"icon",
+		"label",
+		"badge",
+		"tags",
+		"cssClass",
+		"properties",
+		"accessKey" ],
+	"name" : "SAAbstractPanelComponent",
+	"pools" : [
+		 ],
+	"super" : "SAAbstractComponent",
+	"type" : "normal" }

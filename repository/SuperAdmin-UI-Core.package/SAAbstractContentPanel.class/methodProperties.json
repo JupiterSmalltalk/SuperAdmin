@@ -1,0 +1,13 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"addPanel:" : "jupiter 11/21/2021 15:04",
+		"children" : "jupiter 11/21/2021 15:02",
+		"initialize" : "jupiter 11/21/2021 15:01",
+		"panelOfType:" : "jupiter 11/21/2021 15:05",
+		"panelSelectedAnnouncement:" : "jupiter 11/21/2021 15:03",
+		"panels" : "jupiter 11/21/2021 15:02",
+		"renderBreadcrumbItem:on:" : "jupiter 11/21/2021 15:19",
+		"renderBreadcrumbOn:" : "jupiter 11/21/2021 15:19",
+		"rootAnnouncer" : "jupiter 11/21/2021 15:02" } }

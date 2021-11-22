@@ -1,0 +1,16 @@
+{
+	"category" : "SuperAdmin-UI-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"announcer",
+		"panels",
+		"selectedPanel" ],
+	"name" : "SAAbstractContentPanel",
+	"pools" : [
+		 ],
+	"super" : "SAAbstractPanelComponent",
+	"type" : "normal" }

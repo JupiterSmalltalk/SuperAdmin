@@ -6,6 +6,7 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
+		"parent",
 		"components" ],
 	"name" : "SAAbstractComponent",
 	"pools" : [
