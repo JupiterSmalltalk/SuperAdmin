@@ -1,10 +1,7 @@
 rendering-panels
 renderPanelOn: canvas
-  canvas section
-    class: 'content';
-    with: [ 
-          self
+  canvas render: selectedPanel	"self
             renderPanelHeaderOn: canvas;
             renderPanelStatsOn: canvas;
             renderPanelRealTimeWidgetsOn: canvas;
-            renderPanelFooterOn: canvas ]
+            renderPanelFooterOn: canvas"

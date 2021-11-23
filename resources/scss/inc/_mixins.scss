@@ -1,3 +1,10 @@
+// Background blur
+@mixin backgroundBlur($blurPx: 8px){
+	backdrop-filter: blur($blurPx);
+	-webkit-backdrop-filter: blur($blurPx);
+}
+
+
 // CSS Animations based on animate.css
 @mixin animate($name, $duration) {
   -webkit-animation-name: $name;

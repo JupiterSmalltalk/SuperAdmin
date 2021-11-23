@@ -1,9 +1,13 @@
 .breadcrumb {
-  border-bottom: 1px solid $bg-highlighted-light;
   border-radius: 0;
 }
 
 .breadcrumb-item {
+	& > a {
+		color: $body-color;
+		text-decoration: none;
+	}
+
   &:not(.active) {
     & > a {
       color: $text-muted;

@@ -11034,10 +11034,13 @@ select:-webkit-autofill:focus {
 }
 
 .breadcrumb {
-  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
   border-radius: 0;
 }
 
+.breadcrumb-item > a {
+  color: rgba(255, 255, 255, 0.85);
+  text-decoration: none;
+}
 .breadcrumb-item:not(.active) > a {
   color: rgba(255, 255, 255, 0.5);
 }
@@ -11358,14 +11361,14 @@ body {
 }
 
 .content__title {
-  margin-bottom: 1.5rem;
-  padding: 0.75rem 0;
+  margin-bottom: 1rem;
   position: relative;
+  top: 1.2rem;
   display: flex;
-  align-items: center;
+  align-items: baseline;
 }
 .content__title > h1, .content__title > .h1 {
-  line-height: 70%;
+  line-height: 1.2rem;
   font-size: 3rem;
   margin: 0;
   padding-left: 2rem;
@@ -11381,6 +11384,10 @@ body {
 }
 .content__title:not(.content__title--alt) > h1, .content__title:not(.content__title--alt) > .h1 {
   text-transform: uppercase;
+}
+.content__title .context {
+  margin-left: auto;
+  flex: 0 0 auto;
 }
 .content__title .actions {
   margin-left: auto;
@@ -11440,6 +11447,7 @@ body {
 .actions {
   display: flex;
   align-items: center;
+  justify-content: flex-end;
 }
 .actions a {
   text-decoration: none;
@@ -11575,6 +11583,8 @@ header .actions {
   padding-right: 1.5rem;
   box-shadow: 0 0 13px rgba(0, 0, 0, 0.22);
   transition: background-color 1000ms, box-shadow 1000ms;
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
 }
 .header::after {
   display: block;
@@ -11750,6 +11760,8 @@ header .actions {
 .search--toggled {
   background-color: rgba(0, 0, 0, 0.85);
   box-shadow: 0 0 13px rgba(0, 0, 0, 0.22);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
 }
 
 .search__inner {
@@ -11987,6 +11999,8 @@ header .actions {
   overflow: hidden;
   z-index: 101;
   background-color: rgba(0, 0, 0, 0.125);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
 }
 @media (min-width: 1200px) {
   .sidebar:not(.sidebar--hidden) {
@@ -12169,8 +12183,8 @@ header .actions {
   border-radius: 50%;
   background-color: #ffffff;
   position: absolute;
-  left: 1.5rem;
-  top: 1.1rem;
+  left: 1.8rem;
+  top: 1.25rem;
 }
 .navigation__sub .navigation__active > a {
   color: #ffffff;

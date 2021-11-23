@@ -1,3 +1,3 @@
 rendering
 renderSubheadingOn: canvas
-  canvas text: (self stringFromObjectOrBlock: self subHeading)
+  canvas small: (self stringFromObjectOrBlock: self subHeading)

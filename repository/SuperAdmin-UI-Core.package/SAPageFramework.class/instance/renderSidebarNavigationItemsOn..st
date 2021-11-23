@@ -1,5 +1,10 @@
 rendering-sidebar
 renderSidebarNavigationItemsOn: canvas
+  self panels
+    do: [ :panel | 
+      (panel isKindOf: SAPanelGroup)
+        ifTrue: [  ]
+        ifFalse: [  ] ].
   canvas listItem
     class: 'navigation__active';
     with: [ 

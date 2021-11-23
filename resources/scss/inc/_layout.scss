@@ -54,14 +54,14 @@ body {
 }
 
 .content__title {
-  margin-bottom: 1.5rem;
-  padding: 0.75rem 0;
-  position: relative;
-  display: flex;
-  align-items: center;
+	margin-bottom: 1rem;
+	position: relative;
+	top: 1.2rem;
+	display: flex;
+	align-items: baseline;
 
   & > h1 {
-    line-height: 70%;
+    line-height: 1.2rem;
     font-size: 3rem;
     margin: 0;
     padding-left: 2rem;
@@ -81,6 +81,11 @@ body {
     & > h1 {
       text-transform: uppercase;
     }
+  }
+  
+  .context {
+	margin-left: auto;
+	flex: 0 0 auto;
   }
 
   .actions {

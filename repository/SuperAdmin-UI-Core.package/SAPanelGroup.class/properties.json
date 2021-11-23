@@ -4,10 +4,10 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "",
+	"commentStamp" : "jupiter 11/22/2021 08:42",
 	"instvars" : [
 		 ],
-	"name" : "SAAPanelGroupComponent",
+	"name" : "SAPanelGroup",
 	"pools" : [
 		 ],
 	"super" : "SAAbstractPanelComponent",

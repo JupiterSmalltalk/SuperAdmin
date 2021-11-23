@@ -13,6 +13,7 @@
   padding-right: 1.5rem;
   box-shadow: $header-shadow;
   transition: background-color 1000ms, box-shadow 1000ms;
+  @include backgroundBlur();
   @include clearfix();
 
   .sa-backdrop {
@@ -218,6 +219,7 @@
 .search--toggled {
   background-color: $header-bg-scrolled;
   box-shadow: $header-shadow;
+  @include backgroundBlur();
 }
 
 .search__inner {

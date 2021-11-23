@@ -12,5 +12,5 @@
 	"name" : "SAPageFramework",
 	"pools" : [
 		 ],
-	"super" : "SAAbstractComponent",
+	"super" : "SAAbstractContentPanel",
 	"type" : "normal" }

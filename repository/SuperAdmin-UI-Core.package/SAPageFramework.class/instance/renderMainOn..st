@@ -7,4 +7,4 @@ renderMainOn: canvas
             renderHeaderOn: canvas;
             renderThemeSelectorOn: canvas;
             renderSidebarOn: canvas;
-            renderPanelOn: canvas ]
+            renderPanelWrapperOn: canvas ]

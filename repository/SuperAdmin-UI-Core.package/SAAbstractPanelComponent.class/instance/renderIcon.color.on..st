@@ -9,8 +9,7 @@ renderIcon: iconNameOrBlock color: color on: canvas
         ifFalse: [ 
           iconNameOrBlock argumentCount == 1
             ifTrue: [ ^ iconNameOrBlock value: canvas ] ] ].
-  iconTag := canvas
-    fontAwesome;
+  iconTag := canvas fontAwesome
     fontAwesomeLight;
     icon: iconName.
   color ifNotNil: [ self color: color tag: iconTag ]
