@@ -6,6 +6,7 @@
   @include animate(fadeIn, 300ms);
   box-shadow: $dropdown-box-shadow;
   background-color: rgba(0,0,0,0.86);
+  @include backgroundBlur();
 }
 
 .dropdown-header {

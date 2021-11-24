@@ -10546,6 +10546,8 @@ textarea.form-control-lg {
   animation-fill-mode: both;
   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
   background-color: rgba(0, 0, 0, 0.86);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
 }
 
 .dropdown-header {
