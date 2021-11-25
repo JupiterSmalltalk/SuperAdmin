@@ -6,9 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		 ],
-	"name" : "SACheckedMemento",
+		"searchText" ],
+	"name" : "SAMagritteOneToManyComponent",
 	"pools" : [
 		 ],
-	"super" : "MACheckedMemento",
+	"super" : "TBSMagritteOneToManyComponent",
 	"type" : "normal" }

@@ -1,0 +1,11 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"addColumnDescription:" : "jupiter 11/25/2021 00:40",
+		"defaultBatchSize" : "jupiter 11/25/2021 00:40",
+		"defaultShowFilter" : "jupiter 11/25/2021 00:40",
+		"defaultSortColumn" : "jupiter 11/25/2021 00:40",
+		"initialize" : "jupiter 11/25/2021 00:41",
+		"refresh" : "jupiter 11/25/2021 00:41",
+		"renderTableBodyOn:" : "jupiter 11/25/2021 00:41" } }

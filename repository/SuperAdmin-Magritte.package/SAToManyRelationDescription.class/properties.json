@@ -7,8 +7,8 @@
 	"commentStamp" : "",
 	"instvars" : [
 		 ],
-	"name" : "SACheckedMemento",
+	"name" : "SAToManyRelationDescription",
 	"pools" : [
 		 ],
-	"super" : "MACheckedMemento",
+	"super" : "MAToManyRelationDescription",
 	"type" : "normal" }

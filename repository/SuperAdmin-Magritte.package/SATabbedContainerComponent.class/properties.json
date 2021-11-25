@@ -6,9 +6,10 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		 ],
-	"name" : "SACheckedMemento",
+		"selectedTab",
+		"announcer" ],
+	"name" : "SATabbedContainerComponent",
 	"pools" : [
 		 ],
-	"super" : "MACheckedMemento",
+	"super" : "SAAbstractContainerComponent",
 	"type" : "normal" }

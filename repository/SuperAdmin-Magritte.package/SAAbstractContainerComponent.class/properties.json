@@ -6,9 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		 ],
-	"name" : "SACheckedMemento",
+		"components" ],
+	"name" : "SAAbstractContainerComponent",
 	"pools" : [
 		 ],
-	"super" : "MACheckedMemento",
+	"super" : "MAContainerComponent",
 	"type" : "normal" }

@@ -1,0 +1,12 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"children" : "jupiter 11/25/2021 01:16",
+		"componentAt:ifAbsentPut:" : "jupiter 11/25/2021 01:16",
+		"components" : "jupiter 11/25/2021 01:16",
+		"initialize" : "jupiter 11/25/2021 01:17",
+		"renderDescriptionsWithLabels:on:" : "jupiter 11/25/2021 01:18",
+		"rolesWithNames:" : "jupiter 11/25/2021 01:18",
+		"saveAndRemainOpen" : "jupiter 11/25/2021 01:17",
+		"userHasRoleNamed:" : "jupiter 11/25/2021 01:18" } }
