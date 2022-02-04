@@ -7,8 +7,8 @@
 	"commentStamp" : "",
 	"instvars" : [
 		 ],
-	"name" : "SATextInputComponent",
+	"name" : "SATextAreaComponent",
 	"pools" : [
 		 ],
-	"super" : "TBSMagritteTextInputComponent",
+	"super" : "TBSMagritteTextAreaComponent",
 	"type" : "normal" }

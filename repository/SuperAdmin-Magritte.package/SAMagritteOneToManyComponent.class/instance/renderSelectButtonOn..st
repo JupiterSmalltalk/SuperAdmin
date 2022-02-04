@@ -1,6 +1,6 @@
 rendering
 renderSelectButtonOn: html
-  self isReadOnly
+  self isReadonly
     ifFalse: [ 
       html tbsButton
         beLabeled;
@@ -11,7 +11,7 @@ renderSelectButtonOn: html
         with: [ 
               html
                 tbsButtonLabel: [ 
-                  (html tag: 'i')
-                    fontAwesome;
-                    fontAwesomePlusIcon ].
+                  html fontAwesome
+                    fontAwesomeLight;
+                    icon: 'plus' ].
               html text: (self labelForSelector: #'add') ] ]

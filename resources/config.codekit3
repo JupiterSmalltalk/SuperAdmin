@@ -2099,6 +2099,21 @@
       "pg" : 0,
       "sct" : 0
     },
+    "\/scss\/inc\/_reports.scss" : {
+      "aP" : 1,
+      "bl" : 0,
+      "co" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 1,
+      "oA" : 1,
+      "oAP" : "\/scss\/inc\/_reports.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 0
+    },
     "\/scss\/inc\/_results.scss" : {
       "aP" : 1,
       "bl" : 0,
@@ -2619,6 +2634,21 @@
       "ma" : 1,
       "oA" : 1,
       "oAP" : "\/scss\/inc\/vendor-overrides\/_fullcalendar.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 0
+    },
+    "\/scss\/inc\/vendor-overrides\/_highcharts.scss" : {
+      "aP" : 1,
+      "bl" : 0,
+      "co" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 1,
+      "oA" : 1,
+      "oAP" : "\/scss\/inc\/vendor-overrides\/_highcharts.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0,

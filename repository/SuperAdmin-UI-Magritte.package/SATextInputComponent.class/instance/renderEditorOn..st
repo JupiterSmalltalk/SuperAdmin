@@ -8,7 +8,10 @@ renderEditorOn: html
             class: 'input-group-text';
             with: [ 
                   (description hasProperty: #'icon')
-                    ifTrue: [ (html tag: 'i') class: (description propertyAt: #'icon') ] ].
+                    ifTrue: [ 
+                      html fontAwesome
+                        fontAwesomeLight;
+                        icon: (description propertyAt: #'icon') ] ].
           html div
             class: 'form-floating';
             with: [ 
@@ -18,6 +21,8 @@ renderEditorOn: html
                     on: #'string' of: self;
                     class: 'form-control';
                     class: 'is-invalid' if: self errors notEmpty.
+                  description isReadonly
+                    ifTrue: [ textInput disabled ].
                   description placeholder isNil
                     ifTrue: [ textInput placeholder: description label ]
                     ifFalse: [ textInput placeholder: description placeholder ].

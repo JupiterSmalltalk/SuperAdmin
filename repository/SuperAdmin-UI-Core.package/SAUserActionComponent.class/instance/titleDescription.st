@@ -6,6 +6,6 @@ titleDescription
     label: 'Name';
     priority: 50;
     componentClass: SATextInputComponent;
-    propertyAt: #'icon' put: 'zwicon-user';
+    propertyAt: #'icon' put: 'user';
     beRequired;
     yourself

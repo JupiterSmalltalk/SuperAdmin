@@ -1,0 +1,12 @@
+.reportComponent {
+
+	> th {
+	
+		&.ascending {
+		
+			&:before {
+				content: "\f0de";
+			}
+		}
+	}
+}

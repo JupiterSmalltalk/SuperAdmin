@@ -6,6 +6,6 @@ userNameDescription
     label: 'Email Address';
     priority: 100;
     componentClass: SATextInputComponent;
-    propertyAt: #'icon' put: 'zwicon-mail';
+    propertyAt: #'icon' put: 'envelope';
     beRequired;
     yourself

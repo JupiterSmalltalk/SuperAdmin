@@ -6,6 +6,6 @@ passwordDescription
     label: 'Password';
     priority: 110;
     componentClass: SAPasswordInputComponent;
-    propertyAt: #'icon' put: 'zwicon-password';
+    propertyAt: #'icon' put: 'key';
     beRequired;
     yourself

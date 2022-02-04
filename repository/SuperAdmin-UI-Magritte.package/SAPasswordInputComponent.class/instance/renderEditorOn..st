@@ -8,7 +8,10 @@ renderEditorOn: html
             class: 'input-group-text';
             with: [ 
                   (description hasProperty: #'icon')
-                    ifTrue: [ (html tag: 'i') class: (description propertyAt: #'icon') ] ].
+                    ifTrue: [ 
+                      html fontAwesome
+                        fontAwesomeLight;
+                        icon: (description propertyAt: #'icon') ] ].
           html div
             class: 'form-floating';
             with: [ 

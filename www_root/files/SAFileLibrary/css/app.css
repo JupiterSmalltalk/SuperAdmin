@@ -10945,9 +10945,41 @@ select.form-control {
   margin-bottom: 1rem;
 }
 
+.form-buttons {
+  margin-top: 1.5rem;
+}
+
 .field-comment {
   text-align: left;
   padding: 0.25rem;
+}
+
+.grow-wrap {
+  display: grid;
+}
+
+.grow-wrap::after {
+  content: attr(data-replicated-value) " ";
+  white-space: pre-wrap;
+  visibility: hidden;
+}
+
+.grow-wrap > textarea {
+  resize: none;
+  overflow: hidden;
+}
+
+.grow-wrap > textarea, .grow-wrap::after {
+  border: 0;
+  line-height: 1.25 !important;
+  padding-top: 1.625rem;
+  padding-bottom: 0.625rem;
+  font: inherit;
+  grid-area: 1/1/2/2;
+}
+
+.grow-wrap textarea {
+  height: 100% !important;
 }
 
 input:-webkit-autofill,
@@ -10975,16 +11007,16 @@ select:-webkit-autofill:focus {
 }
 .input-group .input-group-text {
   border: 0;
-  width: 38px;
+  width: 32px;
 }
 .input-group .input-group-text + .form-floating {
   flex: 1 1 auto;
 }
-.input-group .input-group-text + .form-floating input {
+.input-group .input-group-text + .form-floating input, .input-group .input-group-text + .form-floating textarea {
   border: 0;
   border-radius: 0.5rem;
 }
-.input-group .input-group-text + .form-floating input:focus {
+.input-group .input-group-text + .form-floating input:focus, .input-group .input-group-text + .form-floating textarea:focus {
   box-shadow: none;
 }
 .input-group .input-group-text + .form-floating label {
@@ -10992,8 +11024,10 @@ select:-webkit-autofill:focus {
   text-align: left;
 }
 
-.input-group-text [class*=zwicon-] {
-  font-size: 2rem;
+.input-group-text i {
+  font-size: 1.3rem;
+  position: absolute;
+  top: 1.1rem;
 }
 
 .page-item.disabled {
@@ -13913,6 +13947,10 @@ a {
   font-size: 1.1rem;
 }
 
+.reportComponent > th.ascending:before {
+  content: "\f0de";
+}
+
 .widget-past-days {
   overflow: hidden;
 }
@@ -14260,6 +14298,10 @@ a {
   padding: 0.7rem 1rem;
   background-color: rgba(0, 0, 0, 0.8);
   z-index: 99999;
+}
+
+.highcharts-background {
+  fill: rgba(0, 0, 0, 0);
 }
 
 #jqstooltip {

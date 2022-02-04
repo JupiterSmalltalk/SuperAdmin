@@ -8,12 +8,12 @@
   
   .input-group-text {
     border: 0;
-    width: 38px;
+    width: 32px;
     
     & + .form-floating {
     	flex: 1 1 auto;
     	
-    	input {
+    	input, textarea {
 			border: 0;
 			border-radius: $border-radius;
 			
@@ -31,7 +31,9 @@
 }
 
 .input-group-text {
-  [class*="zwicon-"] {
-    font-size: 2rem;
+  i {
+    font-size: 1.3rem;
+    position: absolute;
+	top: 1.1rem;
   }
 }

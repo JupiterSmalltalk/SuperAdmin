@@ -7,4 +7,7 @@ renderPulseScriptOn: html
         script: [ :script | 
               self checkForUserLockOnScript: script.
               script add: true ];
-        interval: 50000)
+        interval:
+            (self session isLoggedIn
+                ifTrue: [ 50000 ]
+                ifFalse: [ 300000 ]))

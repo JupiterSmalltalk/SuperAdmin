@@ -110,6 +110,7 @@
 @import "inc/theme";
 @import "inc/ie-warning";
 @import "inc/error";
+@import "inc/reports";
 
 
 // Widgets
@@ -127,6 +128,7 @@
 
 // Vendor overrides
 @import "inc/vendor-overrides/flot";
+@import "inc/vendor-overrides/highcharts";
 @import "inc/vendor-overrides/sparklines";
 @import "inc/vendor-overrides/select2";
 @import "inc/vendor-overrides/dropzone";

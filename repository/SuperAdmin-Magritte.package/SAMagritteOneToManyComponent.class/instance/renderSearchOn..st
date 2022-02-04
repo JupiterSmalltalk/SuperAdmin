@@ -3,9 +3,9 @@ renderSearchOn: canvas
   canvas span
     class: 'reportSearch';
     with: [ 
-          (canvas tag: 'i')
-            fontAwesome;
-            fontAwesomeSearchIcon.
+          canvas fontAwesome
+            fontAwesomeLight;
+            icon: 'search'.
           canvas space.
           canvas searchInput
             style: 'color: black;width:90%;';
