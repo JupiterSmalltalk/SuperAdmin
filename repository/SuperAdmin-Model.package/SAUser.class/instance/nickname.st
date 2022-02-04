@@ -1,3 +1,3 @@
 Accessing
 nickname
-  ^ 'Jupiter Jones III'
+  ^ 'Jupiter'
