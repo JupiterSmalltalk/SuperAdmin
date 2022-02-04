@@ -13,4 +13,10 @@ configureApplication: application
     at: #'smtpPassword' put: '';
     at: #'reCaptchaSiteKey' put: '';
     at: #'reCaptchaSecretKey' put: ''.
+  application
+    addLibrary: JQDevelopmentLibrary;
+    addLibrary: JQUiDevelopmentLibrary;
+    addLibrary: JQOvercastTheme;
+    addLibrary: FAFileLibrary;
+    addLibrary: SAFileLibrary.
   ^ application
