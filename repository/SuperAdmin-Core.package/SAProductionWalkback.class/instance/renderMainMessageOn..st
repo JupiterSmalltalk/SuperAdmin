@@ -1,10 +1,7 @@
 rendering
 renderMainMessageOn: html
-  html fontAwesome
-    fontAwesome2x;
-    icon: 'warning-icon'.
-  html div
-    style: 'font-size: 50px;line-height: 37px;padding-bottom: 30px;';
+  html span
+    style: 'font-size: 50px;';
     with: [ html text: 'OOPS! SOMETHING WENT WRONG' ].
   html
     paragraph:
