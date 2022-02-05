@@ -2996,7 +2996,8 @@
     "displayValue" : "SuperAdmin2",
     "displayValueWasSetByUser" : 1,
     "iconImageName" : "brackets-silver",
-    "iconImageWasSetByUser" : 0
+    "iconImageWasSetByUser" : 0,
+    "lastBuiltDate" : 665714785.88100696
   },
   "projectSettings" : {
     "abortBuildOnError" : 1,

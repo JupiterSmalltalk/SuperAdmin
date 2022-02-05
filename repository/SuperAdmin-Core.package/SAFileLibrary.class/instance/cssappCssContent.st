@@ -11981,7 +11981,7 @@ header .actions {
   font-size: 1.5rem;
   margin-left: 1rem;
   border-radius: 0.5rem;
-  width: 110px;
+  width: 130px;
   text-align: center;
 }
 
