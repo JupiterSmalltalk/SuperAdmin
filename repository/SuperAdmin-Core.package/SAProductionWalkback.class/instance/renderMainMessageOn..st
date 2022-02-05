@@ -1,10 +1,9 @@
 rendering
 renderMainMessageOn: html
-  html div
+  html
     fontAwesome;
-    class: 'fa-5x';
-    style: 'color: #B22222';
-    with: [ html span fontAwesomeWarningIcon ].
+    fontAwesome5x;
+    icon: 'warning-icon'.
   html div
     style: 'font-size: 50px;line-height: 37px;padding-bottom: 30px;';
     with: [ html text: 'OOPS! SOMETHING WENT WRONG' ].
