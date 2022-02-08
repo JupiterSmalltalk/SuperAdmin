@@ -1,6 +1,7 @@
 rendering
 renderBreadcrumbItem: panel on: canvas
   canvas listItem
+    class: 'breadcrumb-item';
     class: 'active' if: panel == self;
     with: [ 
           self renderIcon: panel icon color: panel iconColor on: canvas.

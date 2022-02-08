@@ -12,9 +12,8 @@ renderTab: tab on: canvas
             with: [ 
                   (tab at: #'icon')
                     ifNotNil: [ 
-                      (canvas tag: 'i')
-                        fontAwesome;
-                        perform:
-                            ('fontAwesome' , (tab at: #'icon') capitalized , 'Icon') asSymbol.
+                      canvas fontAwesome
+                        fontAwesomeLight;
+                        icon: (tab at: #'icon').
                       canvas space ].
                   canvas render: (tab at: #'label') ] ]

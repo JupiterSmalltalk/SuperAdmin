@@ -1,12 +1,13 @@
 rendering
 renderLabelOn: canvas
-  canvas tbsNavItem
-    tbsPullLeft;
-    class: 'header';
+  canvas heading
+    level4;
+    class: 'card-title';
     with: [ 
-          (canvas tag: 'i')
-            fontAwesome;
-            perform: ('fontAwesome' , self icon capitalized , 'Icon') asSymbol.
+          canvas fontAwesome
+            fontAwesomeLight;
+            icon: self icon.
+          canvas space.
           canvas
             render:
               ((self model readUsing: self model titleDescription)

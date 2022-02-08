@@ -1,0 +1,14 @@
+{
+	"category" : "SuperAdmin-Announcements",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"tab" ],
+	"name" : "SATabSelected",
+	"pools" : [
+		 ],
+	"super" : "Announcement",
+	"type" : "normal" }

@@ -1,6 +1,9 @@
 rendering
 renderBreadcrumbsOn: canvas
-  canvas breadcrumb
+  | crumbs |
+  crumbs := self crumbs.
+  canvas tbsBreadcrumb
     with: [ 
       self pathToRoot
-        do: [ :pathItem | self renderBreadcrumbItem: pathItem on: canvas ] ]
+        do: [ :pathItem | self renderBreadcrumbItem: pathItem on: canvas ].
+      self renderPresenterBreadcrumbs: crumbs on: canvas ]
