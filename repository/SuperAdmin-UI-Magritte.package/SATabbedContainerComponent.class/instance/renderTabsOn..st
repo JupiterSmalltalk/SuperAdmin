@@ -3,8 +3,8 @@ renderTabsOn: canvas
   canvas div
     class: 'tab-container';
     with: [ 
-          canvas tbsNav
-            beTabs;
+          canvas unorderedList
+            class: 'nav nav-tabs';
             role: 'tablist';
             with: [ self tabsToDisplay do: [ :tab | self renderTab: tab on: canvas ] ].
           self errors

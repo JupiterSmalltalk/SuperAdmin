@@ -4,7 +4,8 @@ crumbs
   crumbs := OrderedCollection new.
   self
     allPresentersDo: [ :presenter | 
-      (presenter isKindOf: SAContainerComponent)
+      ((presenter isKindOf: SAContainerComponent)
+        and: [ presenter model isKindOf: PlayModelWithTitleAndComment ])
         ifTrue: [ 
           crumbs
             add:

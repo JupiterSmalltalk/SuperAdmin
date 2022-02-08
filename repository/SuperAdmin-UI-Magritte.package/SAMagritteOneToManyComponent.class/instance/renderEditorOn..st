@@ -1,12 +1,13 @@
 rendering
 renderEditorOn: canvas
   canvas
-    tbsRow: [ 
-      canvas tbsColumn
+    row: [ 
+      canvas column
         smallSize: 6;
         with: [ self renderSearchOn: canvas ].
-      canvas tbsColumn
+      canvas column
         smallSize: 6;
+        class: 'text-end';
         with: [ 
               self magritteDescription isDefinitive
                 ifFalse: [ self renderSelectListOn: canvas ] ] ].

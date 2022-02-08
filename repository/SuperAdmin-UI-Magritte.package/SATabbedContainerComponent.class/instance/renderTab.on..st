@@ -1,9 +1,9 @@
 rendering
 renderTab: tab on: canvas
-  canvas tbsNavItem
+  canvas navigationItem
     beActiveIf: selectedTab == (tab at: #'id');
     with: [ 
-          canvas button
+          canvas navigationLink
             callback: [ 
                   self validate
                     ifTrue: [ 

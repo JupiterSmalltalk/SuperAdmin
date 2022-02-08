@@ -5,5 +5,5 @@ initialize
     showCondensed: true;
     showBordered: false;
     showHover: true;
-    showStriped: true;
+    showStriped: false;
     sortEnabled: true
