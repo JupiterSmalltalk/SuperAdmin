@@ -10601,7 +10601,7 @@ textarea.form-control-lg {
   width: 3rem;
   height: 3rem;
   padding: 0;
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   display: inline-flex;
   align-items: center;
   justify-content: center;
