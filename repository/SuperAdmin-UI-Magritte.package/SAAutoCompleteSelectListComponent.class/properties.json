@@ -1,0 +1,14 @@
+{
+	"category" : "SuperAdmin-UI-Magritte",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"searchText" ],
+	"name" : "SAAutoCompleteSelectListComponent",
+	"pools" : [
+		 ],
+	"super" : "MASelectListComponent",
+	"type" : "normal" }
