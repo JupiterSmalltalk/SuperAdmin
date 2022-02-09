@@ -6,7 +6,7 @@ forgotPasswordComponent
     ifAbsentPut: [ 
       (component := self forgotPasswordDescription asComponentOn: self)
         addValidatedForm:
-            {(SAFormButton selector: #'save' label: 'Send Email' icon: 'checkmark-circle')};
+            {(SAFormButton selector: #'save' label: 'Send Email' icon: 'check')};
         onAnswer: [ self forgotPasswordAction ];
         yourself.
       component formDecoration

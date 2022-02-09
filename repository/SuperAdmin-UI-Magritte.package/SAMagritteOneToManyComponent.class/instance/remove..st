@@ -8,7 +8,7 @@ remove: anObject
   anObject canBeDeleted
     ifFalse: [ errorMessage := anObject canNotBeDeletedErrorMessage , ' ' , errorMessage ].
   self
-    call: (TBSConfirmer dangerOn: errorMessage)
+    call: (SAConfirmer dangerOn: errorMessage)
     onAnswer: [ :answer | 
       (answer and: [ anObject canBeDeleted ])
         ifTrue: [ 

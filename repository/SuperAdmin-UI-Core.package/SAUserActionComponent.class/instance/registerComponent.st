@@ -6,7 +6,7 @@ registerComponent
     ifAbsentPut: [ 
       (component := self registerDescription asComponentOn: self)
         addValidatedForm:
-            {(SAFormButton selector: #'save' label: 'Sign In' icon: 'checkmark-circle')};
+            {(SAFormButton selector: #'save' label: 'Register' icon: 'sign-in')};
         onAnswer: [ self registerAction ];
         yourself.
       component formDecoration

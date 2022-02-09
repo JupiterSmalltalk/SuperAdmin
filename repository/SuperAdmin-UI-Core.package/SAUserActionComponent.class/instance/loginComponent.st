@@ -6,7 +6,7 @@ loginComponent
     ifAbsentPut: [ 
       (component := self loginDescription asComponentOn: self)
         addValidatedForm:
-            {(SAFormButton selector: #'save' label: 'Sign In' icon: 'checkmark-circle')};
+            {(SAFormButton selector: #'save' label: 'Sign In' icon: 'sign-in')};
         onAnswer: [ self loginAction ];
         yourself.
       component formDecoration

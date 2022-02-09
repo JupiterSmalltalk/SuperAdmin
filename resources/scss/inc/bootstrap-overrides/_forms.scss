@@ -37,6 +37,19 @@ select.form-control {
 
 .form-buttons {
 	margin-top: $grid-gutter-width;
+	
+	.primary {
+		button {
+			margin-left: $grid-gutter-width;
+		}
+	}
+	
+	.secondary {
+		button {
+			margin-right: $grid-gutter-width;
+		}
+	}
+	
 }
 
 .field-comment {

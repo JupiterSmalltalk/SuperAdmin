@@ -5,6 +5,6 @@ resetPasswordComponent
     ifAbsentPut: [ 
       (self resetPasswordDescription asComponentOn: self)
         addValidatedForm:
-            {(SAFormButton selector: #'save' label: 'Reset' icon: 'checkmark-circle')};
+            {(SAFormButton selector: #'save' label: 'Reset' icon: 'paper-plane')};
         onAnswer: [ self resetPasswordAction ];
         yourself ]

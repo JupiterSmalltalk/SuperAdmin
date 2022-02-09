@@ -1,13 +1,14 @@
 rendering
 renderButtonsOn: html
-  html div
-    class: 'form-buttons row';
+  html row
+    class: 'form-buttons';
     with: [ 
-          self secondaryButtons
-            ifNotEmpty: [ :secButtons | 
-              html div
-                class: 'secondary col';
-                with: [ 
+          html column
+            smallSize: 6;
+            class: 'secondary';
+            with: [ 
+                  self secondaryButtons
+                    ifNotEmpty: [ :secButtons | 
                       secButtons
                         do: [ :each | 
                           | tag |
@@ -17,8 +18,9 @@ renderButtonsOn: html
                             callback: [ self execute: each selector ];
                             text: each label ]
                         separatedBy: [ html space ] ] ].
-          html div
-            class: 'primary col';
+          html column
+            smallSize: 6;
+            class: 'primary d-flex justify-content-end';
             with: [ 
                   self cancelButton
                     ifNotNil: [ :cancelButton | self renderCancelButton: cancelButton on: html ].

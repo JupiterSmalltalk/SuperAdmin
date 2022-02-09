@@ -1,10 +1,10 @@
 private
 validatedFormOn: result forOperation: aString
   | com dec |
-  dec := SAMagritteFormDecoration new
-    addButton: #'save' label: 'Save & Close';
-    addButton: #'saveAndRemainOpen' label: 'Save';
-    addButton: #'cancel';
+  dec := SAFormDecoration new
+    addButton: #'save' label: 'Save' icon: 'check';
+    addButton: #'saveAndRemainOpen' label: 'Save don''t close';
+    addButton: #'cancel' label: 'Cancel' icon: 'times';
     yourself.
   com := result asComponent
     addDecoration: dec;

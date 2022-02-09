@@ -1,0 +1,14 @@
+{
+	"category" : "SuperAdmin-UI-Magritte",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "SAMagritteFormDecoration",
+	"pools" : [
+		 ],
+	"super" : "TBSMagritteFormDecoration",
+	"type" : "normal" }

@@ -6,7 +6,7 @@ lockComponent
     ifAbsentPut: [ 
       (component := self lockDescription asComponentOn: self)
         addValidatedForm:
-            {(SAFormButton selector: #'save' label: 'Sign In' icon: 'checkmark-circle')};
+            {(SAFormButton selector: #'save' label: 'Sign In' icon: 'unlock')};
         onAnswer: [ self lockAction ];
         yourself.
       component formDecoration

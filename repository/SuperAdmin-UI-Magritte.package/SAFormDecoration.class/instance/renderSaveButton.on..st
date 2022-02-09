@@ -15,4 +15,8 @@ renderSaveButton: saveButton on: html
           put: (self application preferenceAt: #'reCaptchaSiteKey');
         attributeAt: 'data-callback' put: 'onSubmit' , formId , 'Form'"
        ].
-  button with: [ (html tag: 'i') class: 'zwicon-checkmark' ]
+  button
+    with: [ 
+      html fontAwesome
+        fontAwesomeLight;
+        icon: saveButton icon ]
