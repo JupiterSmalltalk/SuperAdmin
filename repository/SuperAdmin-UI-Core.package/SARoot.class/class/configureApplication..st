@@ -17,6 +17,7 @@ configureApplication: application
     addLibrary: JQDevelopmentLibrary;
     addLibrary: JQUiDevelopmentLibrary;
     addLibrary: JQOvercastTheme;
+    addLibrary: SBSDevelopmentLibrary;
     addLibrary: FAFileLibrary;
     addLibrary: SAFileLibrary.
   ^ application

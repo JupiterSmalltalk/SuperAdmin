@@ -1,7 +1,8 @@
 rendering-javascript
 renderJavascriptResourcesOn: canvas
-  canvas script url: SAFileLibrary / #'vendorsjqueryjquery360minJs'.
-  canvas script url: SAFileLibrary / #'vendorsbootstrapjsbootstrapbundleJs'.
+  "canvas script url: SAFileLibrary / #'vendorsjqueryjquery360minJs'.
+  canvas script url: SAFileLibrary / #'vendorsbootstrapjsbootstrapbundleJs'."
+
   canvas script
     url: SAFileLibrary / #'vendorsoverlayscrollbarsjqueryoverlayScrollbarsminJs'.
   canvas script url: SAFileLibrary / #'vendorsflotjqueryflotJs'.

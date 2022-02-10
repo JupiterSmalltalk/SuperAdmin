@@ -2,6 +2,7 @@ rendering
 renderTab: tab on: canvas
   canvas navigationItem
     beActiveIf: selectedTab == (tab at: #'id');
+    role: 'tab';
     with: [ 
           canvas navigationLink
             callback: [ 

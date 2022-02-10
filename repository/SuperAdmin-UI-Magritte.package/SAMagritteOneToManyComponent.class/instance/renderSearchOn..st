@@ -15,7 +15,7 @@ renderSearchOn: canvas
                     script:
                         (canvas jQuery this autocomplete
                             autoFocus: true;
-                            minLength: 2;
+                            minLength: 0;
                             delay: 500;
                             onSearch:
                                 (canvas jQuery ajax

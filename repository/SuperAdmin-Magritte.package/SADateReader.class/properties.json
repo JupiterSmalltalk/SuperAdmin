@@ -1,0 +1,14 @@
+{
+	"category" : "SuperAdmin-Magritte",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "jupiter 02/09/2022 14:29",
+	"instvars" : [
+		 ],
+	"name" : "SADateReader",
+	"pools" : [
+		 ],
+	"super" : "MAStringReader",
+	"type" : "normal" }

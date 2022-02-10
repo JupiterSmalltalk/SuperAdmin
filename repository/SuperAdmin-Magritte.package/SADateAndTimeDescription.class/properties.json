@@ -1,0 +1,14 @@
+{
+	"category" : "SuperAdmin-Magritte",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "SADateAndTimeDescription",
+	"pools" : [
+		 ],
+	"super" : "MADateAndTimeDescription",
+	"type" : "normal" }

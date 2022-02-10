@@ -3,7 +3,7 @@ validatedFormOn: result forOperation: aString
   | com dec |
   dec := SAFormDecoration new
     addButton: #'save' label: 'Save' icon: 'check';
-    addButton: #'saveAndRemainOpen' label: 'Save don''t close';
+    addButton: #'saveAndRemainOpen' label: 'Save and remain open' icon: 'save';
     addButton: #'cancel' label: 'Cancel' icon: 'times';
     yourself.
   com := result asComponent
