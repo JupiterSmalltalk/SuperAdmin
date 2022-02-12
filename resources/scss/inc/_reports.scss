@@ -1,12 +1,60 @@
 .reportComponent {
 
-	> th {
+	table {
 	
-		&.ascending {
+		> :not(:first-child) {
+			border-top: 2px solid rgba(255,255,255,0.25);
+		}
 		
-			&:before {
-				content: "\f0de";
+		td {
+		
+			&:first-child {
+				padding-left: $grid-gutter-width;
 			}
+			
+			vertical-align: middle;
+			padding: 0px 8px;
+			margin: 0px;
+		}
+
+		th {
+		
+			&:first-child {
+				padding-left: $grid-gutter-width;
+			}
+			
+			vertical-align: middle;
+			padding: 0px;
+			margin: 0px;
+			font-size: 1.1rem;
+		
+			&:after {
+				font-family: 'Font Awesome 5 Pro';
+				font-weight: 300;
+			}
+	
+			&.ascending {
+		
+				&:after {
+					content: " \e032";
+				}
+			}
+			
+			&.descending {
+		
+				&:after {
+					content: " \e031";
+				}
+			}
+		}
+	
+		.icon-column {
+			display: flex;
+			justify-content: flex-end;
+	
+			a {
+				font-size: 0.9rem;
+			}	
 		}
 	}
 }

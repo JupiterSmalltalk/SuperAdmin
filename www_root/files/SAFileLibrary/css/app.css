@@ -11501,12 +11501,18 @@ header .actions {
   padding-left: 1.8rem;
   height: 4.875rem;
   display: flex;
-  align-items: center;
+  justify-content: center;
+  padding-top: 1.5rem;
+  badding-bottom: 1.5rem;
 }
 @media (min-width: 992px) {
   .logo {
     min-width: 21.875rem;
   }
+}
+.logo > img {
+  max-width: 100%;
+  max-height: 100%;
 }
 .logo > a {
   color: #ffffff;
@@ -13736,8 +13742,42 @@ a {
   font-size: 1.1rem;
 }
 
-.reportComponent > th.ascending:before {
-  content: "\f0de";
+.reportComponent table > :not(:first-child) {
+  border-top: 2px solid rgba(255, 255, 255, 0.25);
+}
+.reportComponent table td {
+  vertical-align: middle;
+  padding: 0px 8px;
+  margin: 0px;
+}
+.reportComponent table td:first-child {
+  padding-left: 1.5rem;
+}
+.reportComponent table th {
+  vertical-align: middle;
+  padding: 0px;
+  margin: 0px;
+  font-size: 1.1rem;
+}
+.reportComponent table th:first-child {
+  padding-left: 1.5rem;
+}
+.reportComponent table th:after {
+  font-family: "Font Awesome 5 Pro";
+  font-weight: 300;
+}
+.reportComponent table th.ascending:after {
+  content: " \e032";
+}
+.reportComponent table th.descending:after {
+  content: " \e031";
+}
+.reportComponent table .icon-column {
+  display: flex;
+  justify-content: flex-end;
+}
+.reportComponent table .icon-column a {
+  font-size: 0.9rem;
 }
 
 .widget-past-days {

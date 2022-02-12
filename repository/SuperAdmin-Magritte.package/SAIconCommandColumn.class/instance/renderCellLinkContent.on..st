@@ -1,18 +1,18 @@
 rendering
-renderCellLinkContent: anObject on: html
+renderCellLinkContent: anObject on: canvas
   "Icon command key -> { textString. iconSelectorSymbol }"
 
   self commands
     do: [ :each | 
-      html anchor
-        class: 'icon-command';
+      canvas anchor
+        class: 'icon-command actions__item';
         callback: [ each key value: anObject ];
         with: [ 
-              html fontAwesome
+              canvas fontAwesome
                 fontAwesomeLight;
                 icon: each value last.
-              html span visuallyHidden with: each value first ] ]
+              canvas span visuallyHidden with: each value first ] ]
     separatedBy: [ 
-      html
+      canvas
         space;
         space ]
