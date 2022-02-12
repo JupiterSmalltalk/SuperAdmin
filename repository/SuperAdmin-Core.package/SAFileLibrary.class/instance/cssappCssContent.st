@@ -11478,6 +11478,31 @@ header .actions {
 .header .sa-backdrop {
   position: absolute;
 }
+.header .logo {
+  height: 4.875rem;
+  display: flex;
+  justify-content: center;
+}
+@media (min-width: 992px) {
+  .header .logo {
+    min-width: 21.875rem;
+  }
+}
+.header .logo > img {
+  max-width: 100%;
+  max-height: 100%;
+}
+.header .logo > a {
+  color: #ffffff;
+  line-height: 100%;
+  font-size: 1.3rem;
+  font-weight: normal;
+  margin: 0;
+}
+.header .logo > a > img {
+  max-width: 200px;
+  max-height: 50px;
+}
 
 .header--scrolled {
   background-color: rgba(0, 0, 0, 0.85);
@@ -11497,35 +11522,6 @@ header .actions {
 .navigation-trigger:hover {
   cursor: pointer;
   opacity: 0.8;
-}
-
-.logo {
-  padding-left: 1.8rem;
-  height: 4.875rem;
-  display: flex;
-  justify-content: center;
-  padding-top: 1.5rem;
-  badding-bottom: 1.5rem;
-}
-@media (min-width: 992px) {
-  .logo {
-    min-width: 21.875rem;
-  }
-}
-.logo > img {
-  max-width: 100%;
-  max-height: 100%;
-}
-.logo > a {
-  color: #ffffff;
-  line-height: 100%;
-  font-size: 1.3rem;
-  font-weight: normal;
-  margin: 0;
-}
-.logo > a > img {
-  max-width: 200px;
-  max-height: 50px;
 }
 
 .top-nav {
@@ -13146,12 +13142,15 @@ header .actions {
   font-size: 3rem;
 }
 .login__block__header > img {
-  width: 35px;
-  height: 35px;
   border-radius: 50%;
   margin-left: auto;
   margin-right: auto;
   box-shadow: 0 0 0 3px rgba(255, 255, 255, 0.1);
+}
+.login__block__header .logo {
+  width: 100%;
+  height: 100%;
+  padding: 1.5rem;
 }
 
 .login__block__actions {
@@ -13749,7 +13748,7 @@ a {
 }
 .reportComponent table td {
   vertical-align: middle;
-  padding: 0px;
+  padding: 0px 8px;
   margin: 0px;
 }
 .reportComponent table td:first-child {

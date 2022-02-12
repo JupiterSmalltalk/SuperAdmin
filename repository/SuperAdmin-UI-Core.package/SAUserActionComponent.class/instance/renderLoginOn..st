@@ -3,7 +3,9 @@ renderLoginOn: canvas
   canvas div
     class: 'login__block__header';
     with: [ 
-          canvas div with: [ self renderLogoOn: canvas ].
+          canvas div
+            class: 'logo';
+            with: [ self renderLogoOn: canvas ].
           canvas text: 'Welcome. Please sign in.'.
           self renderUserActionsOn: canvas ].
   canvas div
