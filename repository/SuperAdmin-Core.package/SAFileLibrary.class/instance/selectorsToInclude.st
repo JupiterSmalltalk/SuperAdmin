@@ -1,0 +1,3 @@
+seaside
+selectorsToInclude
+  ^ #(#'vendorsoverlayscrollbarsjqueryoverlayScrollbarsminJs' #'vendorsflotjqueryflotJs' #'vendorsflotjqueryflotresizeJs' #'vendorsflotflotcurvedlinescurvedLinesJs' #'vendorspeityjquerypeityminJs' #'vendorsjqvmapjqueryvmapminJs' #'vendorsjqvmapmapsjqueryvmapworldJs' #'vendorsjqueryeasypiechartjqueryeasypiechartminJs' #'vendorsfullcalendarcoremainminJs' #'vendorsfullcalendardaygridmainminJs' #'jsappminJs' #'vendorsflatpickrflatpickrminCss' #'vendorsflatpickrflatpickrminJs')

@@ -1,0 +1,14 @@
+{
+	"category" : "SuperAdmin-UI-Magritte",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "SADateSelectorComponent",
+	"pools" : [
+		 ],
+	"super" : "MADateSelectorComponent",
+	"type" : "normal" }
