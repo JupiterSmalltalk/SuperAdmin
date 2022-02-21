@@ -1,0 +1,14 @@
+{
+	"category" : "SuperAdmin-UI-Magritte",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "SATagsComponent",
+	"pools" : [
+		 ],
+	"super" : "MAMultipleSelectionComponent",
+	"type" : "normal" }
